@@ -1,0 +1,47 @@
+.navbar {
+  /* width: 98vw; */
+  background-color: var(--theme);
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.navheader {
+  font-size: 1.5rem;
+  color: var(--white);
+  color: var(--black);
+  font-weight: 700;
+  /* font-size: 1rem; */
+  margin: 0; 
+  padding: 1rem;
+}
+
+.link {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.link:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.logo {
+  mix-blend-mode: multiply;
+  width: 15rem;
+}
+
+.logout-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.logout-icon:hover {
+  opacity: 0.6; /* Optional: add hover effect */
+}

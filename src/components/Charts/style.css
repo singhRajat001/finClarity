@@ -1,0 +1,65 @@
+.charts-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #e0ffcd;
+    width: 92%;
+    justify-content: space-evenly;
+    height: 50%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin: 2rem;
+    /* gap: 1rem; */
+}
+.childs{
+    background-color: #FFF933
+;
+    display: flex;
+    /* padding: 1rem; */
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    /* box-shadow: var(--shadow); */
+    border-radius: 1rem;
+    /* padding: 1rem; */
+}
+.childs-line{
+    /* padding-bottom: 2rem; */
+    background-color: #FFF933
+;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: var(--shadow); */
+    border-radius: 1rem;
+    /* margin-top: 2rem; */
+}
+
+.childs-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF933;
+    width: 60%;
+    border-radius: 1rem;
+    
+}
+
+.expense-chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+}
+.chart-heading{
+    text-decoration: underline !important;
+    font-weight: 600;
+}
+    
